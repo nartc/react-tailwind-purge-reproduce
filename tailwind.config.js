@@ -6,7 +6,7 @@ module.exports = {
   },
   purge: {
     enabled: true,
-    content: ['**/*.jsx', '**/*.js'],
+    content: ['./src/**/*.jsx', './src/**/*.js'],
   },
   theme: {},
 };
